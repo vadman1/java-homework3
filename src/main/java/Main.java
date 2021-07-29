@@ -24,7 +24,7 @@ public class Main {
 
         List<Company> companyList = companies.companies;
 
-        // вывести все имеющиеся комании в формате "Кратокое название" - "Дата основания 17/01/98"
+        // вывести все имеющиеся комании в формате "Краткое название" - "Дата основания 17/01/98"
         companyList.forEach(company -> {
             String date = LocalDate.parse(
                     company.founded,
